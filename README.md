@@ -2,7 +2,7 @@
 
 ### Personalized Career Guidance & Financial Planning Platform
 
-AI Career Planner is a career guidance platform designed to help users explore personalized career paths, financial planning strategies, and professional growth opportunities through an interactive and user-friendly interface.
+AI Career Planner is an AI-powered career guidance platform that uses Gemini AI to generate personalized career insights, financial planning strategies, and professional growth recommendations through an interactive and user-friendly interface.
 
 The platform provides structured career insights including salary expectations, growth opportunities, skill recommendations, investment planning, and actionable career guidance. Users can also generate and download personalized PDF-based career reports for future reference.
 
@@ -20,6 +20,7 @@ The platform provides structured career insights including salary expectations, 
 - Secure authentication using Firebase Authentication
 - Cloud-based data management with Firestore
 - Deployed production-ready application on Vercel
+- Gemini AI integration for personalized career guidance and recommendations
 
 ---
 
@@ -43,7 +44,7 @@ The platform provides structured career insights including salary expectations, 
 ### Backend & Services
 - Firebase Authentication
 - Cloud Firestore
-
+- Gemini API
 ### Libraries & Tools
 - React Router
 - jsPDF
