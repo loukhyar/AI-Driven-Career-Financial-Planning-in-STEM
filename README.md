@@ -1,52 +1,105 @@
-AI career planner is an AI-powered career planning platform that helps users explore personalized career paths, financial planning strategies, and professional growth opportunities.
+# AI Career Planner
 
-The platform generates structured career guidance including salary expectations, growth potential, skill recommendations, investment planning, and actionable career advice through an interactive React-based interface.
+### Personalized Career Guidance & Financial Planning Platform
 
-Users can also download a personalized PDF report containing their complete career roadmap and financial planning insights.
+AI Career Planner is a career guidance platform designed to help users explore personalized career paths, financial planning strategies, and professional growth opportunities through an interactive and user-friendly interface.
 
-## Features:
+The platform provides structured career insights including salary expectations, growth opportunities, skill recommendations, investment planning, and actionable career guidance. Users can also generate and download personalized PDF-based career reports for future reference.
+
+---
+
+## Features
+
 - Personalized career path recommendations
 - Career growth and salary insights
 - Financial goal and investment planning
 - Downloadable PDF-based career reports
-- Interactive and responsive UI
+- Interactive and responsive user interface
 - Dynamic rendering of career roadmap data
-- Integrated report generation functionality
+- Integrated PDF report generation functionality
+- Secure authentication using Firebase Authentication
+- Cloud-based data management with Firestore
 - Deployed production-ready application on Vercel
 
-## Workflow:
+---
 
-1. User enters career preferences and goals
-2. Application processes and displays personalized career insights
-3. Financial planning recommendations are generated
-4. User downloads a structured PDF career report
+## Workflow
 
-## Tech Stack:
+1. User enters career preferences and goals  
+2. Application processes and displays personalized career insights  
+3. Financial planning recommendations are generated  
+4. Career roadmap and guidance are displayed dynamically  
+5. User downloads a structured PDF career report  
 
-Frontend:
+---
+
+## Tech Stack
+
+### Frontend
 - React.js
 - JavaScript
-- CSS 
+- CSS
 
-Backend & Services:
+### Backend & Services
 - Firebase Authentication
 - Cloud Firestore
 
-Libraries & Tools:
+### Libraries & Tools
 - React Router
 - jsPDF
 
-Deployment:
+### Deployment
 - Vercel
-  
-## Live Demo :
-The application is deployed on Vercel, and you can view the live version of the project at:
 
-**[Live Demo Link](https://ai-career-planner.vercel.app/)**
+---
 
-## Presentation :
+## Live Demo
 
-A detailed presentation describing the features, use cases, and technical aspects of the project is available. You can download the presentation from the link below:
+The application is deployed on Vercel and can be accessed here:
 
-**[Download Presentation](https://github.com/user-attachments/files/19149651/Team10_Presentation.pptx)**
+🔗 [AI Career Planner Live Demo](https://ai-career-planner.vercel.app/)
 
+---
+
+## Presentation
+
+A detailed presentation describing the features, use cases, and technical implementation of the project is available below:
+
+📄 [Download Project Presentation](https://github.com/user-attachments/files/19149651/Team10_Presentation.pptx)
+
+---
+
+## Team Project
+
+This project was developed collaboratively during the **Standard Chartered Diversity Hackathon** in a mentor-guided team environment.
+
+---
+
+## Future Improvements
+
+- Resume analysis and skill gap detection
+- AI-based career recommendation engine
+- Personalized learning roadmap generation
+- Interview preparation module
+- Career trend analytics dashboard
+- Enhanced financial planning insights
+
+---
+
+## Repository Structure
+
+```bash
+src/
+public/
+README.md
+package.json
+vite.config.js
+tailwind.config.js
+vercel.json
+```
+
+---
+
+## Deployment
+
+The project is deployed using **Vercel** for fast and reliable frontend hosting.
