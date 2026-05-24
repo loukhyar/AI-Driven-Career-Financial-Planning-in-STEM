@@ -1,8 +1,8 @@
-# AI Career Planner
+# AI-Driven Career & Financial Planning in STEM
 
 ### Personalized Career Guidance & Financial Planning Platform
 
-AI Career Planner is an AI-powered career guidance platform that uses Gemini AI to generate personalized career insights, financial planning strategies, and professional growth recommendations through an interactive and user-friendly interface.
+AI-Driven Career & Financial Planning in STEM is an AI-powered career guidance platform that uses Gemini AI to generate personalized career insights, financial planning strategies, and professional growth recommendations through an interactive and user-friendly interface.
 
 The platform provides structured career insights including salary expectations, growth opportunities, skill recommendations, investment planning, and actionable career guidance. Users can also generate and download personalized PDF-based career reports for future reference.
 
