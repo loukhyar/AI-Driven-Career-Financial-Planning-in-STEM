@@ -2,35 +2,51 @@
 
 ### Personalized Career Guidance & Financial Planning Platform
 
-AI-Driven Career & Financial Planning in STEM is an AI-powered career guidance platform that uses Gemini AI to generate personalized career insights, financial planning strategies, and professional growth recommendations through an interactive and user-friendly interface.
+AI-Driven Career & Financial Planning in STEM is an AI-powered web platform designed to assist students and professionals in exploring personalized career paths, financial planning strategies, and long-term professional growth opportunities.
 
-The platform provides structured career insights including salary expectations, growth opportunities, skill recommendations, investment planning, and actionable career guidance. Users can also generate and download personalized PDF-based career reports for future reference.
+The platform leverages **Gemini AI** to generate personalized career insights, salary expectations, financial recommendations, and professional growth guidance through an interactive and user-friendly interface.
+
+Users can securely sign in, explore career recommendations, manage financial planning insights, and download personalized PDF-based career reports for future reference.
+
+---
+
+## Problem Statement
+
+Women and students in STEM fields often face challenges in accessing:
+- Personalized career guidance
+- Reliable salary benchmarks
+- Financial planning resources
+- Professional growth recommendations
+
+This project aims to bridge that gap using AI-driven insights and accessible career planning tools.
 
 ---
 
 ## Features
 
-- Personalized career path recommendations
+- Personalized AI-generated career recommendations
 - Career growth and salary insights
-- Financial goal and investment planning
+- Financial planning and investment guidance
+- Gemini AI integration for intelligent career recommendations
 - Downloadable PDF-based career reports
-- Interactive and responsive user interface
-- Dynamic rendering of career roadmap data
-- Integrated PDF report generation functionality
 - Secure authentication using Firebase Authentication
-- Cloud-based data management with Firestore
-- Deployed production-ready application on Vercel
-- Gemini AI integration for personalized career guidance and recommendations
+- Cloud-based data management with Cloud Firestore
+- Responsive and interactive user interface
+- Dynamic rendering of career roadmap data
+- Real-time user workflow and personalized insights
+- Production-ready deployment on Vercel
 
 ---
 
 ## Workflow
 
-1. User enters career preferences and goals  
-2. Application processes and displays personalized career insights  
-3. Financial planning recommendations are generated  
-4. Career roadmap and guidance are displayed dynamically  
-5. User downloads a structured PDF career report  
+1. User signs in securely using Google OAuth  
+2. User enters career preferences and financial goals  
+3. Gemini AI processes and generates personalized insights  
+4. Career growth recommendations and financial planning guidance are displayed  
+5. User can review previous queries and generated insights  
+6. Personalized career reports can be downloaded as PDFs  
+7. User securely logs out of the platform  
 
 ---
 
@@ -40,17 +56,28 @@ The platform provides structured career insights including salary expectations, 
 - React.js
 - JavaScript
 - CSS
+- Vite
 
 ### Backend & Services
 - Firebase Authentication
 - Cloud Firestore
 - Gemini API
+- Google OAuth
+
 ### Libraries & Tools
 - React Router
 - jsPDF
 
 ### Deployment
 - Vercel
+
+---
+
+## Architecture Overview
+
+```text
+User → React Frontend → Gemini API → Firebase Services → Career Insights & PDF Generation
+```
 
 ---
 
@@ -62,9 +89,9 @@ The application is deployed on Vercel and can be accessed here:
 
 ---
 
-## Presentation
+## Project Presentation
 
-A detailed presentation describing the features, use cases, and technical implementation of the project is available below:
+A detailed presentation describing the project architecture, workflow, features, and technical implementation is available below:
 
 📄 [Download Project Presentation](https://github.com/user-attachments/files/19149651/Team10_Presentation.pptx)
 
@@ -72,18 +99,26 @@ A detailed presentation describing the features, use cases, and technical implem
 
 ## Team Project
 
-This project was developed collaboratively during the **Standard Chartered Diversity Hackathon** in a mentor-guided team environment.
+This project was collaboratively developed during the **Standard Chartered Diversity Hackathon** in a mentor-guided team environment.
+
+### Team Members
+- Loukhya Reddy Thatikonda
+- Prapti Saxena
+- Niharika Bungla
+- Ridu Varshini G K
+- Teja Sri Nerusu
 
 ---
 
 ## Future Improvements
 
-- Resume analysis and skill gap detection
-- AI-based career recommendation engine
+- Resume analysis and ATS scoring
+- Skill gap analysis for target career roles
 - Personalized learning roadmap generation
-- Interview preparation module
+- AI-powered interview preparation module
 - Career trend analytics dashboard
-- Enhanced financial planning insights
+- Enhanced financial planning and investment tracking
+- Role-based career recommendation engine
 
 ---
 
@@ -103,4 +138,10 @@ vercel.json
 
 ## Deployment
 
-The project is deployed using **Vercel** for fast and reliable frontend hosting.
+The project is deployed using **Vercel** for fast, scalable, and reliable frontend hosting.
+
+---
+
+## License
+
+This project is intended for educational, learning, and hackathon purposes.
